@@ -27,3 +27,6 @@ SDKROOT[sdk=macosx*] = macosx
 VALID_ARCHS[sdk=macosx*] = x86_64
 MACOSX_DEPLOYMENT_TARGET = 10.10
 LD_RUNPATH_SEARCH_PATHS[sdk=macosx*] = $(inherited) @executable_path/../Frameworks @loader_path/../Frameworks
+
+// Swift
+SWIFT_VERSION = 4.2
